@@ -1,0 +1,183 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    min-height: 4000px;
+}
+
+a {
+    color: #000;
+    margin: 5px 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    max-width: 800px;
+    margin: 70px auto 70px auto; 
+    border: 2px solid #000;
+    padding: 20px;
+    position: relative;
+}
+
+.back {
+    text-align: center;
+}
+
+.header {
+    font-size: 2em;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.header::selection {
+    background: transparent;
+}
+
+#header-showhide-btn {
+    cursor: pointer;
+}
+
+#header-showhide-btn:hover {
+    text-decoration: underline;
+}
+
+.showhide-text-hidden {
+    display: none;
+}
+
+.block-item-header {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.block-item-content-hidden {
+    display: none;
+}
+
+.block-item-content {
+    width: 100%;
+    border-top: 2px solid #000;
+}
+.tab-content-hidden {
+    display: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.tabs-group-item {
+    padding: 5px 15px;
+    border: 2px solid #000;
+    cursor: pointer;
+    margin-right: -6px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+li::selection {
+    background: transparent;
+}
+
+.dropdown-menu__dropdown_hidden {
+    display: none;
+}
+
+.dropdown-menu__item {
+    border: 2px solid black;
+    margin-right: -6px;
+}
+
+.dropdown-menu__item-title {
+    padding: 5px 15px;
+    height: 120%;
+    cursor: pointer;
+}
+
+.dropdown-menu__dropdown {
+    margin-left: -2px;
+    position: absolute;
+    background: #000;
+    color: #fff;
+}
+
+.dropdown-menu__dropdown-item {
+    display: grid;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.side-menu-header {
+    float: left;
+}
+
+.side-menu-btn-open, .side-menu-btn-close {
+    cursor: pointer;
+    float: right;
+}
+
+.side-menu-btn-open::selection, .side-menu-btn-close::selection {
+    background: transparent;
+}
+
+.side-menu-btn-close {
+    color: white;
+}
+
+.side-menu-btn-open:hover, .side-menu-btn-close:hover {
+    text-decoration: underline;
+}
+
+.sidemenu-menu li {
+    display: grid;
+}
+
+.sidemenu {
+    position: absolute;
+    background: black;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    color: white;
+    padding: 20px;
+}
+
+.sidemenu-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.sidemenu-menu li {
+    padding-bottom: 7px;
+}
+
+.hidden {
+    display: none;
+}
+
+.sidemenu-menu li {
+    cursor: pointer;
+}
+
+.active {
+    background: black;
+    color: white;
+}
